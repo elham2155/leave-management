@@ -1,0 +1,21 @@
+IMPORTANT - Razor Runtime Compilation
+
+Add Razor Runtime Compilation
+
+In this course we will be doing a bit of UI work and refreshing. 
+You will need to recompile every time a change is made and I 
+demonstrate how to do this more easily using Browser Link, but this 
+works for some people and not for others.
+
+ASP.Net Core now comes with Razor Runtime Compilation which you can 
+enable when creating the project (which wasn't supported fully at 
+the time) or following these simple steps:
+
+1. Install the :
+Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (NuGet package)
+
+2. Add the line :
+services.AddRazorPages().AddRazorRuntimeCompilation(); 
+to the project's Startup.cs file and the ConfigureServices() methodto 
+include a call to AddRazorRuntimeCompilation.
+

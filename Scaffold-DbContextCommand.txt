@@ -1,0 +1,11 @@
+Scaffold-DbContext Command
+
+If you have a database already and would like to reverse engineer it 
+into your project, then you can use the following 
+command: (In Visual Studio, select menu Tools -> NuGet Package Manger -> Package Manger Console)
+
+    Scaffold-DbContext [-Connection] [-Provider] [-OutputDir] [-Context] [-Schemas>] [-Tables>] 
+                       [-DataAnnotations] [-Force] [-Project] [-StartupProject] [<CommonParameters>]
+
+In this specific context ,the command would have been: 
+PM> Scaffold-DbContext "Server=SERVER_NAME;Database=DATABASE_NAME;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data

@@ -1,0 +1,5 @@
+What is Dependency Injection
+
+Often classes need access to each other, and this design pattern 
+demonstrates how to create loosely coupled classes. When two classes 
+are tightly coupled, they are linked with a binary association.
