@@ -1,0 +1,20 @@
+.NET 6.0 SDK (v6.0.100-rc.2) :
+https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-6.0.100-rc.2-windows-x64-installer
+
+Dropdowns :
+https://getbootstrap.com/docs/5.1/components/dropdowns/
+
+Git for Windows :
+https://git-scm.com/download/win
+
+Add advanced interaction controls to your HTML tables the free & easy way :
+https://datatables.net/
+
+Font Awesome :
+https://www.bootstrapcdn.com/fontawesome/
+
+The complete set of 675 icons in Font Awesome 4.7.0 :
+https://fontawesome.com/v4.7/icons/
+
+Bootstrap 5 Colors :
+https://mdbootstrap.com/docs/standard/content-styles/colors/#section-full-palette

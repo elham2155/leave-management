@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F2F4929C-42D7-4F51-B3AE-62ED8A895D63}"
 	ProjectSection(SolutionItems) = preProject
 		IMPORTANT-RazorRuntimeCompilation.txt = IMPORTANT-RazorRuntimeCompilation.txt
+		Linkes.txt = Linkes.txt
 		Scaffold-DbContextCommand.txt = Scaffold-DbContextCommand.txt
 		Scoped-vs-Singleton-vs-Transient.txt = Scoped-vs-Singleton-vs-Transient.txt
 		What-is-Dependency-Injection.txt = What-is-Dependency-Injection.txt
