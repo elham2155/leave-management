@@ -1,6 +1,9 @@
 .NET 6.0 SDK (v6.0.100-rc.2) :
 https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-6.0.100-rc.2-windows-x64-installer
 
+Bootstrap components
+https://getbootstrap.com/
+
 Dropdowns :
 https://getbootstrap.com/docs/5.1/components/dropdowns/
 

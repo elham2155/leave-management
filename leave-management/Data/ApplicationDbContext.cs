@@ -19,5 +19,8 @@ namespace leave_management.Data
         public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
         public DbSet<LeaveHistory> LeaveHistories { get; set; }
         public DbSet<leave_management.Models.DetailsLeaveTypeVM> DetailsLeaveTypeVM { get; set; }
+        public DbSet<leave_management.Models.EmployeeVM> EmployeeVM { get; set; }
+        public DbSet<leave_management.Models.LeaveAllocationVM> LeaveAllocationVM { get; set; }
+        public DbSet<leave_management.Models.EditLeaveAllocationVM> EditLeaveAllocationVM { get; set; }
     }
 }
