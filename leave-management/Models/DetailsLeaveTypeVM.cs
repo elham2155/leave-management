@@ -8,6 +8,7 @@ namespace leave_management.Models
 {
     public class DetailsLeaveTypeVM
     {
+        
         public int Id { get; set; }    
 
         [Required]

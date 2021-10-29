@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="//cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" />
     <link href="~/lib/font-awesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
 </head>
 <body>
     <header>
@@ -30,7 +31,10 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="">Apply For Leaves</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="LeaveRequest" asp-action="Create">Apply For Leaves</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="LeaveRequest" asp-action="MyLeave">My Leave Requests</a>
                         </li>
                         @if (SignInManager.IsSignedIn(User))
                         {
@@ -44,7 +48,7 @@
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                                             <a class="dropdown-item" asp-controller="LeaveType" asp-action="Index">Leave Types</a>
                                             <a class="dropdown-item" asp-controller="LeaveAllocation" asp-action="Index">Leave Allocations</a>
-                                            <a class="dropdown-item" asp-controller="LeaveType" asp-action="">Leave Histories</a>
+                                            <a class="dropdown-item" asp-controller="LeaveRequest" asp-action="Index">Leave Requests</a>
                                             <a class="dropdown-item" asp-controller="LeaveAllocation" asp-action="ListEmployees">Employees</a>
                                             @*<button class="dropdown-item" type="button"><a class="nav-link text-info" asp-controller="Authentication" asp-action="SignOut">LogOut</a></button>*@
                                         </div>
@@ -72,6 +76,8 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    @*<script src="https://code.jquery.com/jquery-3.6.0.js"></script>*@
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
