@@ -45,13 +45,13 @@ namespace leave_management.Models
     }
     public class AdminLeaveRequestViewVM
     {
-        [Display(Name = "Total Number of Requests")]
+        [Display(Name = "Total Requests")]
         public int TotalRequests { get; set; }
-        [Display(Name = "Number of Approved Requests")]
+        [Display(Name = "Approved Requests")]
         public int ApprovedRequests { get; set; }
-        [Display(Name = "Number of Pending Requests")]
+        [Display(Name = "Pending Requests")]
         public int PendingRequests { get; set; }
-        [Display(Name = "Number of Rejected Requests")]
+        [Display(Name = "Rejected Requests")]
         public int RejectedRequests { get; set; }
         public List<LeaveRequestVM> LeaveRequests { get; set; }
     }

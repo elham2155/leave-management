@@ -10,7 +10,7 @@
         <i class="fa fa-plus-square"></i> Create New
     </a>
 </p>
-<table class="table table-hover">
+<table id="tblData" class="table table-hover">
     <thead class="bg-success">
         <tr>
             <th>
@@ -29,7 +29,7 @@
                 </td>
 
                 <td>
-                    <a class="btn btn-outline-success" asp-action="SetLeave" asp-route-id="@item.Id"><i class="fa fa-pen"></i> Allocato to Employee</a>
+                    <a class="btn btn-outline-success" asp-action="SetLeave" asp-route-id="@item.Id"><i class="fas fa-user-edit"></i> Allocato to Employee</a>
                 </td>
             </tr>
         }
